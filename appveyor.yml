@@ -5,10 +5,10 @@ environment:
     PYTHON_VERSION: "2.7.8"
     PYTHON_ARCH: "32"
 
-    CONAN_UPLOAD: 1
     CONAN_REFERENCE: "breakpad/1.0.0"
     CONAN_USERNAME: "shinichy"
     CONAN_CHANNEL: "ci"
+    CONAN_UPLOAD: "https://api.bintray.com/conan/conan-community/conan"
     CONAN_TOTAL_PAGES: 1
 
     matrix:
